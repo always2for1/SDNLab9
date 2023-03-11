@@ -7,7 +7,7 @@ USERNAME = input("Please enter your SSH username: ")
 PASS = getpass("Please enter your SSH password: ")
 
 device = {
-    'ip': '192.168.1.10'
+    'ip': '192.168.40.40'
     'username': USERNAME,
     'password': PASS,
     'device_type': 'cisco_ios'
