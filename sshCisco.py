@@ -7,7 +7,7 @@ PASS = getpass("Please enter your SSH password: ")
 
 device = {
     'ip': '192.168.40.40',
-    'username': 'USERNAME',
+    'username': USERNAME,
     'password': PASS,
     'device_type': 'cisco_ios'
 }
